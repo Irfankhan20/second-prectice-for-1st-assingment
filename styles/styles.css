@@ -42,3 +42,45 @@ border: 0;
 }
 
 /* main section styles */
+
+
+  
+.failure-container{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    padding-top: 135px;
+    
+   
+}
+.failmain-photo{
+    padding-left: 140px;
+}
+.failmain-header{
+    color: #151414;
+padding-top: 260px;
+font-size: 40px;
+font-weight: 700;
+}  
+.failmain-discription{
+
+color: #444343;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+padding-top: 24px;
+}
+
+ul 
+{
+    list-style: none;
+    color: #444343;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+}
+
+ul li:before {
+    content: '✓';
+    color: #16D887;
+}
